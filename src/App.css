@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #6a82fb;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  outline: black;
+}
+
+.background-nav {
+  background-image: linear-gradient(to right, #d17e9f, #cb7fb7, #bb85d0, #9c8fe7, #679afa);
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
