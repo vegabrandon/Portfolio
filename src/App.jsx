@@ -51,7 +51,7 @@ function App() {
 
           <ProjectList ref={projectRef} />
           <div className='m-auto'>
-            <h1 className='text-white text-[6rem] h-[10rem]'>Resume</h1>
+            <h1 className='text-white text-[6rem] h-[10rem]'>Resume</h1> 
           </div>
     </div>
 

@@ -4,7 +4,7 @@ const ProjectList = forwardRef((props, ref) => {
     const h1ClassNames = `text-white text-2xl text-left ml-[1em] mt-[1em]`
 
     return (
-        <div className='flex flex-col h-[100vh]' ref={ref}>
+        <div className='flex flex-col h-[100vh] pt-[3rem]' ref={ref}>
             <div>
                 <h1 className="text-white text-[6rem] h-[10rem]">Projects</h1>
             </div>
